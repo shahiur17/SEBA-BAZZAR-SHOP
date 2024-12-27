@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+
 const Navbar = () => {
   return (
     <div>
@@ -27,67 +29,96 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a className="font-bold hover:text-blue-500">Food & Grocery</a>
+                <Link className="font-bold hover:text-blue-500" to="/food">
+                  Food & Grocery
+                </Link>
               </li>
               <li>
-                <a className="font-bold hover:text-blue-500">Pharmacy</a>
+                <Link className="font-bold hover:text-blue-500" to="/pharmacy">
+                  Pharmacy
+                </Link>
               </li>
               <li>
-                <a className="font-bold hover:text-blue-500">Fashion</a>
+                <Link className="font-bold hover:text-blue-500" to="/fashion">
+                  Fashion
+                </Link>
               </li>
               <li>
-                <a className="font-bold hover:text-blue-500">Electronic</a>
+                <Link
+                  className="font-bold hover:text-blue-500"
+                  to="/electronic"
+                >
+                  Electronic
+                </Link>
               </li>
               <li>
-                <a className="font-bold hover:text-blue-500">Jewellery</a>
+                <Link className="font-bold hover:text-blue-500" to="/jewellery">
+                  Jewellery
+                </Link>
               </li>
               <li>
-                <a className="font-bold hover:text-blue-500">Books</a>
+                <Link className="font-bold hover:text-blue-500" to="/book">
+                  Books
+                </Link>
               </li>
               <li>
-                <a className="font-bold hover:text-blue-500">Phone</a>
+                <Link className="font-bold hover:text-blue-500" to="/phone">
+                  Phone
+                </Link>
               </li>
             </ul>
           </div>
           {/* Logo */}
-          <a className="btn btn-ghost text-xl font-bold hover:text-blue-500">
+          <Link
+            className="btn btn-ghost text-xl font-bold hover:text-blue-500"
+            to="/home"
+          >
             daisyUI
-          </a>
+          </Link>
         </div>
         {/* Center Menu for Large Screens */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="font-bold hover:text-blue-500">Fashion</a>
+              <Link className="font-bold hover:text-blue-500" to="/fashion">
+                Fashion
+              </Link>
             </li>
             <li>
-              <a className="font-bold hover:text-blue-500">Phone</a>
+              <Link className="font-bold hover:text-blue-500" to="/phone">
+                Phone
+              </Link>
             </li>
             <li>
-              <a className="font-bold hover:text-blue-500">Pharmacy</a>
+              <Link className="font-bold hover:text-blue-500" to="/pharmacy">
+                Pharmacy
+              </Link>
             </li>
             <li>
-              <a className="font-bold hover:text-blue-500">Books</a>
+              <Link className="font-bold hover:text-blue-500" to="/book">
+                Books
+              </Link>
             </li>
             <li>
-              <a className="font-bold hover:text-blue-500">Jewellery</a>
+              <Link className="font-bold hover:text-blue-500" to="/jewellery">
+                Jewellery
+              </Link>
             </li>
             <li>
-              <a className="font-bold hover:text-blue-500">Food & Grocery</a>
+              <Link className="font-bold hover:text-blue-500" to="/food">
+                Food & Grocery
+              </Link>
             </li>
             <li>
-              <a className="font-bold hover:text-blue-500">Electronic</a>
+              <Link className="font-bold hover:text-blue-500" to="/electronic">
+                Electronic
+              </Link>
             </li>
           </ul>
         </div>
         {/* Navbar End */}
         <div className="navbar-end flex items-center space-x-4">
-          {/* Search Box */}
-          <input
-            type="text"
-            placeholder="Search..."
-            className="input input-bordered w-full max-w-xs"
-          />
+          {/* Search Box with Button */}
           {/* Profile Section */}
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
