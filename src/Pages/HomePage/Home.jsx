@@ -1,5 +1,12 @@
+import HomeSalide from "../../component/Salides/HomeSalide";
+
 const Home = () => {
-  return <div></div>;
+  return (
+    <div>
+      home
+      <HomeSalide />
+    </div>
+  );
 };
 
 export default Home;
