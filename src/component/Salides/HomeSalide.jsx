@@ -8,6 +8,8 @@ const HomeSalide = () => {
     "https://i.postimg.cc/44VSTvW9/Best-Mens-tshirt-brands-768x644.png",
     "https://i.postimg.cc/3r6HWqnk/Whats-App-Image-2024-09-06-at-06-11-31-e7e904bf.jpg",
     "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
+    "https://i.postimg.cc/3r6HWqnk/Whats-App-Image-2024-09-06-at-06-11-31-e7e904bf.jpg",
+    "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
   ];
 
   useEffect(() => {

@@ -1,568 +1,576 @@
-[
-  {
-    "id": 1,
-    "name": "Fashion Item 1",
-    "title": "Trendy Shirt",
-    "image": "https://via.placeholder.com/150",
-    "price": 29.99,
-    "rating": 4.5
-  },
-  {
-    "id": 2,
-    "name": "Fashion Item 2",
-    "title": "Stylish Jeans",
-    "image": "https://via.placeholder.com/150",
-    "price": 39.99,
-    "rating": 4.7
-  },
-  {
-    "id": 3,
-    "name": "Fashion Item 3",
-    "title": "Elegant Dress",
-    "image": "https://via.placeholder.com/150",
-    "price": 49.99,
-    "rating": 4.3
-  },
-  {
-    "id": 4,
-    "name": "Fashion Item 4",
-    "title": "Cool Jacket",
-    "image": "https://via.placeholder.com/150",
-    "price": 59.99,
-    "rating": 4.6
-  },
-  {
-    "id": 5,
-    "name": "Fashion Item 5",
-    "title": "Casual Shoes",
-    "image": "https://via.placeholder.com/150",
-    "price": 35.99,
-    "rating": 4.4
-  },
-  {
-    "id": 6,
-    "name": "Fashion Item 6",
-    "title": "Sportswear Set",
-    "image": "https://via.placeholder.com/150",
-    "price": 29.99,
-    "rating": 4.8
-  },
-  {
-    "id": 7,
-    "name": "Fashion Item 7",
-    "title": "Formal Shirt",
-    "image": "https://via.placeholder.com/150",
-    "price": 39.99,
-    "rating": 4.5
-  },
-  {
-    "id": 8,
-    "name": "Fashion Item 8",
-    "title": "Sneakers",
-    "image": "https://via.placeholder.com/150",
-    "price": 45.99,
-    "rating": 4.6
-  },
-  {
-    "id": 9,
-    "name": "Fashion Item 9",
-    "title": "T-Shirt",
-    "image": "https://via.placeholder.com/150",
-    "price": 19.99,
-    "rating": 4.7
-  },
-  {
-    "id": 10,
-    "name": "Fashion Item 10",
-    "title": "Denim Shorts",
-    "image": "https://via.placeholder.com/150",
-    "price": 29.99,
-    "rating": 4.2
-  },
-
-  {
-    "id": 11,
-    "name": "Phone Item 1",
-    "title": "Smartphone A1",
-    "image": "https://via.placeholder.com/150",
-    "price": 399.99,
-    "rating": 4.8
-  },
-  {
-    "id": 12,
-    "name": "Phone Item 2",
-    "title": "Smartphone B2",
-    "image": "https://via.placeholder.com/150",
-    "price": 499.99,
-    "rating": 4.5
-  },
-  {
-    "id": 13,
-    "name": "Phone Item 3",
-    "title": "Smartphone C3",
-    "image": "https://via.placeholder.com/150",
-    "price": 599.99,
-    "rating": 4.7
-  },
-  {
-    "id": 14,
-    "name": "Phone Item 4",
-    "title": "Smartphone D4",
-    "image": "https://via.placeholder.com/150",
-    "price": 699.99,
-    "rating": 4.9
-  },
-  {
-    "id": 15,
-    "name": "Phone Item 5",
-    "title": "Smartphone E5",
-    "image": "https://via.placeholder.com/150",
-    "price": 799.99,
-    "rating": 4.4
-  },
-  {
-    "id": 16,
-    "name": "Phone Item 6",
-    "title": "Smartphone F6",
-    "image": "https://via.placeholder.com/150",
-    "price": 899.99,
-    "rating": 4.6
-  },
-  {
-    "id": 17,
-    "name": "Phone Item 7",
-    "title": "Smartphone G7",
-    "image": "https://via.placeholder.com/150",
-    "price": 999.99,
-    "rating": 4.7
-  },
-  {
-    "id": 18,
-    "name": "Phone Item 8",
-    "title": "Smartphone H8",
-    "image": "https://via.placeholder.com/150",
-    "price": 799.99,
-    "rating": 4.3
-  },
-  {
-    "id": 19,
-    "name": "Phone Item 9",
-    "title": "Smartphone I9",
-    "image": "https://via.placeholder.com/150",
-    "price": 699.99,
-    "rating": 4.5
-  },
-  {
-    "id": 20,
-    "name": "Phone Item 10",
-    "title": "Smartphone J10",
-    "image": "https://via.placeholder.com/150",
-    "price": 599.99,
-    "rating": 4.6
-  },
-
-  {
-    "id": 21,
-    "name": "Pharmacy Item 1",
-    "title": "Painkiller",
-    "image": "https://via.placeholder.com/150",
-    "price": 9.99,
-    "rating": 4.8
-  },
-  {
-    "id": 22,
-    "name": "Pharmacy Item 2",
-    "title": "Cough Syrup",
-    "image": "https://via.placeholder.com/150",
-    "price": 7.99,
-    "rating": 4.6
-  },
-  {
-    "id": 23,
-    "name": "Pharmacy Item 3",
-    "title": "Antibiotics",
-    "image": "https://via.placeholder.com/150",
-    "price": 12.99,
-    "rating": 4.7
-  },
-  {
-    "id": 24,
-    "name": "Pharmacy Item 4",
-    "title": "Vitamin C",
-    "image": "https://via.placeholder.com/150",
-    "price": 5.99,
-    "rating": 4.5
-  },
-  {
-    "id": 25,
-    "name": "Pharmacy Item 5",
-    "title": "Band-Aids",
-    "image": "https://via.placeholder.com/150",
-    "price": 2.99,
-    "rating": 4.2
-  },
-  {
-    "id": 26,
-    "name": "Pharmacy Item 6",
-    "title": "Hand Sanitizer",
-    "image": "https://via.placeholder.com/150",
-    "price": 3.99,
-    "rating": 4.6
-  },
-  {
-    "id": 27,
-    "name": "Pharmacy Item 7",
-    "title": "Cold Relief",
-    "image": "https://via.placeholder.com/150",
-    "price": 8.99,
-    "rating": 4.4
-  },
-  {
-    "id": 28,
-    "name": "Pharmacy Item 8",
-    "title": "Face Mask",
-    "image": "https://via.placeholder.com/150",
-    "price": 1.99,
-    "rating": 4.5
-  },
-  {
-    "id": 29,
-    "name": "Pharmacy Item 9",
-    "title": "Pain Reliever",
-    "image": "https://via.placeholder.com/150",
-    "price": 4.99,
-    "rating": 4.7
-  },
-  {
-    "id": 30,
-    "name": "Pharmacy Item 10",
-    "title": "Cold Medicine",
-    "image": "https://via.placeholder.com/150",
-    "price": 6.99,
-    "rating": 4.6
-  },
-
-  {
-    "id": 31,
-    "name": "Books Item 1",
-    "title": "Fiction Novel",
-    "image": "https://via.placeholder.com/150",
-    "price": 15.99,
-    "rating": 4.8
-  },
-  {
-    "id": 32,
-    "name": "Books Item 2",
-    "title": "Science Fiction",
-    "image": "https://via.placeholder.com/150",
-    "price": 18.99,
-    "rating": 4.7
-  },
-  {
-    "id": 33,
-    "name": "Books Item 3",
-    "title": "Mystery Novel",
-    "image": "https://via.placeholder.com/150",
-    "price": 12.99,
-    "rating": 4.5
-  },
-  {
-    "id": 34,
-    "name": "Books Item 4",
-    "title": "Self-Help Book",
-    "image": "https://via.placeholder.com/150",
-    "price": 9.99,
-    "rating": 4.6
-  },
-  {
-    "id": 35,
-    "name": "Books Item 5",
-    "title": "Historical Fiction",
-    "image": "https://via.placeholder.com/150",
-    "price": 14.99,
-    "rating": 4.4
-  },
-  {
-    "id": 36,
-    "name": "Books Item 6",
-    "title": "Biographies",
-    "image": "https://via.placeholder.com/150",
-    "price": 17.99,
-    "rating": 4.3
-  },
-  {
-    "id": 37,
-    "name": "Books Item 7",
-    "title": "Poetry Collection",
-    "image": "https://via.placeholder.com/150",
-    "price": 8.99,
-    "rating": 4.8
-  },
-  {
-    "id": 38,
-    "name": "Books Item 8",
-    "title": "Cookbook",
-    "image": "https://via.placeholder.com/150",
-    "price": 11.99,
-    "rating": 4.5
-  },
-  {
-    "id": 39,
-    "name": "Books Item 9",
-    "title": "Children's Book",
-    "image": "https://via.placeholder.com/150",
-    "price": 6.99,
-    "rating": 4.6
-  },
-  {
-    "id": 40,
-    "name": "Books Item 10",
-    "title": "Fantasy Novel",
-    "image": "https://via.placeholder.com/150",
-    "price": 13.99,
-    "rating": 4.4
-  },
-
-  {
-    "id": 41,
-    "name": "Jewellery Item 1",
-    "title": "Gold Necklace",
-    "image": "https://via.placeholder.com/150",
-    "price": 199.99,
-    "rating": 4.8
-  },
-  {
-    "id": 42,
-    "name": "Jewellery Item 2",
-    "title": "Silver Ring",
-    "image": "https://via.placeholder.com/150",
-    "price": 99.99,
-    "rating": 4.5
-  },
-  {
-    "id": 43,
-    "name": "Jewellery Item 3",
-    "title": "Diamond Earrings",
-    "image": "https://via.placeholder.com/150",
-    "price": 299.99,
-    "rating": 4.7
-  },
-  {
-    "id": 44,
-    "name": "Jewellery Item 4",
-    "title": "Gold Bracelet",
-    "image": "https://via.placeholder.com/150",
-    "price": 149.99,
-    "rating": 4.6
-  },
-  {
-    "id": 45,
-    "name": "Jewellery Item 5",
-    "title": "Silver Watch",
-    "image": "https://via.placeholder.com/150",
-    "price": 249.99,
-    "rating": 4.4
-  },
-  {
-    "id": 46,
-    "name": "Jewellery Item 6",
-    "title": "Gold Earrings",
-    "image": "https://via.placeholder.com/150",
-    "price": 179.99,
-    "rating": 4.7
-  },
-  {
-    "id": 47,
-    "name": "Jewellery Item 7",
-    "title": "Diamond Necklace",
-    "image": "https://via.placeholder.com/150",
-    "price": 399.99,
-    "rating": 4.8
-  },
-  {
-    "id": 48,
-    "name": "Jewellery Item 8",
-    "title": "Platinum Ring",
-    "image": "https://via.placeholder.com/150",
-    "price": 499.99,
-    "rating": 4.5
-  },
-  {
-    "id": 49,
-    "name": "Jewellery Item 9",
-    "title": "Gold Pendant",
-    "image": "https://via.placeholder.com/150",
-    "price": 129.99,
-    "rating": 4.6
-  },
-  {
-    "id": 50,
-    "name": "Jewellery Item 10",
-    "title": "Silver Anklet",
-    "image": "https://via.placeholder.com/150",
-    "price": 59.99,
-    "rating": 4.4
-  },
-
-  {
-    "id": 51,
-    "name": "Food Item 1",
-    "title": "Organic Apple",
-    "image": "https://via.placeholder.com/150",
-    "price": 1.99,
-    "rating": 4.8
-  },
-  {
-    "id": 52,
-    "name": "Food Item 2",
-    "title": "Whole Wheat Bread",
-    "image": "https://via.placeholder.com/150",
-    "price": 2.49,
-    "rating": 4.7
-  },
-  {
-    "id": 53,
-    "name": "Food Item 3",
-    "title": "Almonds",
-    "image": "https://via.placeholder.com/150",
-    "price": 5.99,
-    "rating": 4.6
-  },
-  {
-    "id": 54,
-    "name": "Food Item 4",
-    "title": "Rice Pack",
-    "image": "https://via.placeholder.com/150",
-    "price": 3.99,
-    "rating": 4.5
-  },
-  {
-    "id": 55,
-    "name": "Food Item 5",
-    "title": "Eggs",
-    "image": "https://via.placeholder.com/150",
-    "price": 2.99,
-    "rating": 4.4
-  },
-  {
-    "id": 56,
-    "name": "Food Item 6",
-    "title": "Olive Oil",
-    "image": "https://via.placeholder.com/150",
-    "price": 6.99,
-    "rating": 4.7
-  },
-  {
-    "id": 57,
-    "name": "Food Item 7",
-    "title": "Peanut Butter",
-    "image": "https://via.placeholder.com/150",
-    "price": 4.99,
-    "rating": 4.6
-  },
-  {
-    "id": 58,
-    "name": "Food Item 8",
-    "title": "Tomato Sauce",
-    "image": "https://via.placeholder.com/150",
-    "price": 2.49,
-    "rating": 4.5
-  },
-  {
-    "id": 59,
-    "name": "Food Item 9",
-    "title": "Green Tea",
-    "image": "https://via.placeholder.com/150",
-    "price": 3.99,
-    "rating": 4.4
-  },
-  {
-    "id": 60,
-    "name": "Food Item 10",
-    "title": "Chocolates",
-    "image": "https://via.placeholder.com/150",
-    "price": 4.49,
-    "rating": 4.7
-  },
-
-  {
-    "id": 61,
-    "name": "Electronic Item 1",
-    "title": "Laptop",
-    "image": "https://via.placeholder.com/150",
-    "price": 899.99,
-    "rating": 4.8
-  },
-  {
-    "id": 62,
-    "name": "Electronic Item 2",
-    "title": "Smartwatch",
-    "image": "https://via.placeholder.com/150",
-    "price": 199.99,
-    "rating": 4.6
-  },
-  {
-    "id": 63,
-    "name": "Electronic Item 3",
-    "title": "Wireless Earbuds",
-    "image": "https://via.placeholder.com/150",
-    "price": 59.99,
-    "rating": 4.7
-  },
-  {
-    "id": 64,
-    "name": "Electronic Item 4",
-    "title": "Bluetooth Speaker",
-    "image": "https://via.placeholder.com/150",
-    "price": 49.99,
-    "rating": 4.5
-  },
-  {
-    "id": 65,
-    "name": "Electronic Item 5",
-    "title": "Tablet",
-    "image": "https://via.placeholder.com/150",
-    "price": 349.99,
-    "rating": 4.7
-  },
-  {
-    "id": 66,
-    "name": "Electronic Item 6",
-    "title": "Portable Charger",
-    "image": "https://via.placeholder.com/150",
-    "price": 19.99,
-    "rating": 4.6
-  },
-  {
-    "id": 67,
-    "name": "Electronic Item 7",
-    "title": "Phone Case",
-    "image": "https://via.placeholder.com/150",
-    "price": 14.99,
-    "rating": 4.8
-  },
-  {
-    "id": 68,
-    "name": "Electronic Item 8",
-    "title": "Camera",
-    "image": "https://via.placeholder.com/150",
-    "price": 499.99,
-    "rating": 4.6
-  },
-  {
-    "id": 69,
-    "name": "Electronic Item 9",
-    "title": "Gaming Console",
-    "image": "https://via.placeholder.com/150",
-    "price": 399.99,
-    "rating": 4.7
-  },
-  {
-    "id": 70,
-    "name": "Electronic Item 10",
-    "title": "Smart TV",
-    "image": "https://via.placeholder.com/150",
-    "price": 799.99,
-    "rating": 4.8
-  }
-]
+{
+  "Fashion": [
+    {
+      "id": 1,
+      "name": "Fashion Item 1",
+      "title": "Trendy Shirt",
+      "image": "https://via.placeholder.com/150",
+      "price": 29.99,
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Fashion Item 2",
+      "title": "Stylish Jeans",
+      "image": "https://via.placeholder.com/150",
+      "price": 39.99,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Fashion Item 3",
+      "title": "Elegant Dress",
+      "image": "https://via.placeholder.com/150",
+      "price": 49.99,
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "Fashion Item 4",
+      "title": "Cool Jacket",
+      "image": "https://via.placeholder.com/150",
+      "price": 59.99,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Fashion Item 5",
+      "title": "Casual Shoes",
+      "image": "https://via.placeholder.com/150",
+      "price": 35.99,
+      "rating": 4.4
+    },
+    {
+      "id": 6,
+      "name": "Fashion Item 6",
+      "title": "Sportswear Set",
+      "image": "https://via.placeholder.com/150",
+      "price": 29.99,
+      "rating": 4.8
+    },
+    {
+      "id": 7,
+      "name": "Fashion Item 7",
+      "title": "Formal Shirt",
+      "image": "https://via.placeholder.com/150",
+      "price": 39.99,
+      "rating": 4.5
+    },
+    {
+      "id": 8,
+      "name": "Fashion Item 8",
+      "title": "Sneakers",
+      "image": "https://via.placeholder.com/150",
+      "price": 45.99,
+      "rating": 4.6
+    },
+    {
+      "id": 9,
+      "name": "Fashion Item 9",
+      "title": "T-Shirt",
+      "image": "https://via.placeholder.com/150",
+      "price": 19.99,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "name": "Fashion Item 10",
+      "title": "Denim Shorts",
+      "image": "https://via.placeholder.com/150",
+      "price": 29.99,
+      "rating": 4.2
+    }
+  ],
+  "Phone": [
+    {
+      "id": 11,
+      "name": "Phone Item 1",
+      "title": "Smartphone A1",
+      "image": "https://via.placeholder.com/150",
+      "price": 399.99,
+      "rating": 4.8
+    },
+    {
+      "id": 12,
+      "name": "Phone Item 2",
+      "title": "Smartphone B2",
+      "image": "https://via.placeholder.com/150",
+      "price": 499.99,
+      "rating": 4.5
+    },
+    {
+      "id": 13,
+      "name": "Phone Item 3",
+      "title": "Smartphone C3",
+      "image": "https://via.placeholder.com/150",
+      "price": 599.99,
+      "rating": 4.7
+    },
+    {
+      "id": 14,
+      "name": "Phone Item 4",
+      "title": "Smartphone D4",
+      "image": "https://via.placeholder.com/150",
+      "price": 699.99,
+      "rating": 4.9
+    },
+    {
+      "id": 15,
+      "name": "Phone Item 5",
+      "title": "Smartphone E5",
+      "image": "https://via.placeholder.com/150",
+      "price": 799.99,
+      "rating": 4.4
+    },
+    {
+      "id": 16,
+      "name": "Phone Item 6",
+      "title": "Smartphone F6",
+      "image": "https://via.placeholder.com/150",
+      "price": 899.99,
+      "rating": 4.6
+    },
+    {
+      "id": 17,
+      "name": "Phone Item 7",
+      "title": "Smartphone G7",
+      "image": "https://via.placeholder.com/150",
+      "price": 999.99,
+      "rating": 4.7
+    },
+    {
+      "id": 18,
+      "name": "Phone Item 8",
+      "title": "Smartphone H8",
+      "image": "https://via.placeholder.com/150",
+      "price": 799.99,
+      "rating": 4.3
+    },
+    {
+      "id": 19,
+      "name": "Phone Item 9",
+      "title": "Smartphone I9",
+      "image": "https://via.placeholder.com/150",
+      "price": 699.99,
+      "rating": 4.5
+    },
+    {
+      "id": 20,
+      "name": "Phone Item 10",
+      "title": "Smartphone J10",
+      "image": "https://via.placeholder.com/150",
+      "price": 599.99,
+      "rating": 4.6
+    }
+  ],
+  "Pharmacy": [
+    {
+      "id": 21,
+      "name": "Pharmacy Item 1",
+      "title": "Painkiller",
+      "image": "https://via.placeholder.com/150",
+      "price": 9.99,
+      "rating": 4.8
+    },
+    {
+      "id": 22,
+      "name": "Pharmacy Item 2",
+      "title": "Cough Syrup",
+      "image": "https://via.placeholder.com/150",
+      "price": 7.99,
+      "rating": 4.6
+    },
+    {
+      "id": 23,
+      "name": "Pharmacy Item 3",
+      "title": "Antibiotics",
+      "image": "https://via.placeholder.com/150",
+      "price": 12.99,
+      "rating": 4.7
+    },
+    {
+      "id": 24,
+      "name": "Pharmacy Item 4",
+      "title": "Vitamin C",
+      "image": "https://via.placeholder.com/150",
+      "price": 5.99,
+      "rating": 4.5
+    },
+    {
+      "id": 25,
+      "name": "Pharmacy Item 5",
+      "title": "Band-Aids",
+      "image": "https://via.placeholder.com/150",
+      "price": 2.99,
+      "rating": 4.2
+    },
+    {
+      "id": 26,
+      "name": "Pharmacy Item 6",
+      "title": "Hand Sanitizer",
+      "image": "https://via.placeholder.com/150",
+      "price": 3.99,
+      "rating": 4.6
+    },
+    {
+      "id": 27,
+      "name": "Pharmacy Item 7",
+      "title": "Cold Relief",
+      "image": "https://via.placeholder.com/150",
+      "price": 8.99,
+      "rating": 4.4
+    },
+    {
+      "id": 28,
+      "name": "Pharmacy Item 8",
+      "title": "Face Mask",
+      "image": "https://via.placeholder.com/150",
+      "price": 1.99,
+      "rating": 4.5
+    },
+    {
+      "id": 29,
+      "name": "Pharmacy Item 9",
+      "title": "Pain Reliever",
+      "image": "https://via.placeholder.com/150",
+      "price": 4.99,
+      "rating": 4.7
+    },
+    {
+      "id": 30,
+      "name": "Pharmacy Item 10",
+      "title": "Cold Medicine",
+      "image": "https://via.placeholder.com/150",
+      "price": 6.99,
+      "rating": 4.6
+    }
+  ],
+  "Book": [
+    {
+      "id": 31,
+      "name": "Books Item 1",
+      "title": "Fiction Novel",
+      "image": "https://via.placeholder.com/150",
+      "price": 15.99,
+      "rating": 4.8
+    },
+    {
+      "id": 32,
+      "name": "Books Item 2",
+      "title": "Science Fiction",
+      "image": "https://via.placeholder.com/150",
+      "price": 18.99,
+      "rating": 4.7
+    },
+    {
+      "id": 33,
+      "name": "Books Item 3",
+      "title": "Mystery Novel",
+      "image": "https://via.placeholder.com/150",
+      "price": 12.99,
+      "rating": 4.5
+    },
+    {
+      "id": 34,
+      "name": "Books Item 4",
+      "title": "Self-Help Book",
+      "image": "https://via.placeholder.com/150",
+      "price": 9.99,
+      "rating": 4.6
+    },
+    {
+      "id": 35,
+      "name": "Books Item 5",
+      "title": "Historical Fiction",
+      "image": "https://via.placeholder.com/150",
+      "price": 14.99,
+      "rating": 4.4
+    },
+    {
+      "id": 36,
+      "name": "Books Item 6",
+      "title": "Biographies",
+      "image": "https://via.placeholder.com/150",
+      "price": 17.99,
+      "rating": 4.3
+    },
+    {
+      "id": 37,
+      "name": "Books Item 7",
+      "title": "Poetry Collection",
+      "image": "https://via.placeholder.com/150",
+      "price": 8.99,
+      "rating": 4.8
+    },
+    {
+      "id": 38,
+      "name": "Books Item 8",
+      "title": "Cookbook",
+      "image": "https://via.placeholder.com/150",
+      "price": 11.99,
+      "rating": 4.5
+    },
+    {
+      "id": 39,
+      "name": "Books Item 9",
+      "title": "Children's Book",
+      "image": "https://via.placeholder.com/150",
+      "price": 6.99,
+      "rating": 4.6
+    },
+    {
+      "id": 40,
+      "name": "Books Item 10",
+      "title": "Fantasy Novel",
+      "image": "https://via.placeholder.com/150",
+      "price": 13.99,
+      "rating": 4.4
+    }
+  ],
+  "Jewellery": [
+    {
+      "id": 41,
+      "name": "Jewellery Item 1",
+      "title": "Gold Necklace",
+      "image": "https://via.placeholder.com/150",
+      "price": 199.99,
+      "rating": 4.8
+    },
+    {
+      "id": 42,
+      "name": "Jewellery Item 2",
+      "title": "Silver Ring",
+      "image": "https://via.placeholder.com/150",
+      "price": 99.99,
+      "rating": 4.5
+    },
+    {
+      "id": 43,
+      "name": "Jewellery Item 3",
+      "title": "Diamond Earrings",
+      "image": "https://via.placeholder.com/150",
+      "price": 299.99,
+      "rating": 4.7
+    },
+    {
+      "id": 44,
+      "name": "Jewellery Item 4",
+      "title": "Gold Bracelet",
+      "image": "https://via.placeholder.com/150",
+      "price": 149.99,
+      "rating": 4.6
+    },
+    {
+      "id": 45,
+      "name": "Jewellery Item 5",
+      "title": "Silver Watch",
+      "image": "https://via.placeholder.com/150",
+      "price": 249.99,
+      "rating": 4.4
+    },
+    {
+      "id": 46,
+      "name": "Jewellery Item 6",
+      "title": "Gold Earrings",
+      "image": "https://via.placeholder.com/150",
+      "price": 179.99,
+      "rating": 4.7
+    },
+    {
+      "id": 47,
+      "name": "Jewellery Item 7",
+      "title": "Diamond Necklace",
+      "image": "https://via.placeholder.com/150",
+      "price": 399.99,
+      "rating": 4.8
+    },
+    {
+      "id": 48,
+      "name": "Jewellery Item 8",
+      "title": "Platinum Ring",
+      "image": "https://via.placeholder.com/150",
+      "price": 499.99,
+      "rating": 4.5
+    },
+    {
+      "id": 49,
+      "name": "Jewellery Item 9",
+      "title": "Gold Pendant",
+      "image": "https://via.placeholder.com/150",
+      "price": 129.99,
+      "rating": 4.6
+    },
+    {
+      "id": 50,
+      "name": "Jewellery Item 10",
+      "title": "Silver Anklet",
+      "image": "https://via.placeholder.com/150",
+      "price": 59.99,
+      "rating": 4.4
+    }
+  ],
+  "Food": [
+    {
+      "id": 51,
+      "name": "Food Item 1",
+      "title": "Organic Apple",
+      "image": "https://via.placeholder.com/150",
+      "price": 1.99,
+      "rating": 4.8
+    },
+    {
+      "id": 52,
+      "name": "Food Item 2",
+      "title": "Whole Wheat Bread",
+      "image": "https://via.placeholder.com/150",
+      "price": 2.49,
+      "rating": 4.7
+    },
+    {
+      "id": 53,
+      "name": "Food Item 3",
+      "title": "Almonds",
+      "image": "https://via.placeholder.com/150",
+      "price": 5.99,
+      "rating": 4.6
+    },
+    {
+      "id": 54,
+      "name": "Food Item 4",
+      "title": "Rice Pack",
+      "image": "https://via.placeholder.com/150",
+      "price": 3.99,
+      "rating": 4.5
+    },
+    {
+      "id": 55,
+      "name": "Food Item 5",
+      "title": "Eggs",
+      "image": "https://via.placeholder.com/150",
+      "price": 2.99,
+      "rating": 4.4
+    },
+    {
+      "id": 56,
+      "name": "Food Item 6",
+      "title": "Olive Oil",
+      "image": "https://via.placeholder.com/150",
+      "price": 6.99,
+      "rating": 4.7
+    },
+    {
+      "id": 57,
+      "name": "Food Item 7",
+      "title": "Peanut Butter",
+      "image": "https://via.placeholder.com/150",
+      "price": 4.99,
+      "rating": 4.6
+    },
+    {
+      "id": 58,
+      "name": "Food Item 8",
+      "title": "Tomato Sauce",
+      "image": "https://via.placeholder.com/150",
+      "price": 2.49,
+      "rating": 4.5
+    },
+    {
+      "id": 59,
+      "name": "Food Item 9",
+      "title": "Green Tea",
+      "image": "https://via.placeholder.com/150",
+      "price": 3.99,
+      "rating": 4.4
+    },
+    {
+      "id": 60,
+      "name": "Food Item 10",
+      "title": "Chocolates",
+      "image": "https://via.placeholder.com/150",
+      "price": 4.49,
+      "rating": 4.7
+    }
+  ],
+  "Electronic": [
+    {
+      "id": 61,
+      "name": "Electronic Item 1",
+      "title": "Laptop",
+      "image": "https://via.placeholder.com/150",
+      "price": 899.99,
+      "rating": 4.8
+    },
+    {
+      "id": 62,
+      "name": "Electronic Item 2",
+      "title": "Smartwatch",
+      "image": "https://via.placeholder.com/150",
+      "price": 199.99,
+      "rating": 4.6
+    },
+    {
+      "id": 63,
+      "name": "Electronic Item 3",
+      "title": "Wireless Earbuds",
+      "image": "https://via.placeholder.com/150",
+      "price": 59.99,
+      "rating": 4.7
+    },
+    {
+      "id": 64,
+      "name": "Electronic Item 4",
+      "title": "Bluetooth Speaker",
+      "image": "https://via.placeholder.com/150",
+      "price": 49.99,
+      "rating": 4.5
+    },
+    {
+      "id": 65,
+      "name": "Electronic Item 5",
+      "title": "Tablet",
+      "image": "https://via.placeholder.com/150",
+      "price": 349.99,
+      "rating": 4.7
+    },
+    {
+      "id": 66,
+      "name": "Electronic Item 6",
+      "title": "Portable Charger",
+      "image": "https://via.placeholder.com/150",
+      "price": 19.99,
+      "rating": 4.6
+    },
+    {
+      "id": 67,
+      "name": "Electronic Item 7",
+      "title": "Phone Case",
+      "image": "https://via.placeholder.com/150",
+      "price": 14.99,
+      "rating": 4.8
+    },
+    {
+      "id": 68,
+      "name": "Electronic Item 8",
+      "title": "Camera",
+      "image": "https://via.placeholder.com/150",
+      "price": 499.99,
+      "rating": 4.6
+    },
+    {
+      "id": 69,
+      "name": "Electronic Item 9",
+      "title": "Gaming Console",
+      "image": "https://via.placeholder.com/150",
+      "price": 399.99,
+      "rating": 4.7
+    },
+    {
+      "id": 70,
+      "name": "Electronic Item 10",
+      "title": "Smart TV",
+      "image": "https://via.placeholder.com/150",
+      "price": 799.99,
+      "rating": 4.8
+    }
+  ]
+}

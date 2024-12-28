@@ -1,20 +1,15 @@
-const PhoneCards = ({ data }) => {
-  // Helper function to filter fashion items
-  const getPhoneItems = (array) => {
-    if (Array.isArray(array)) {
-      return array.filter((item) => item.name.includes("Phone"));
-    }
-    return [];
-  };
+import React from "react";
 
-  const topFashionItems = getPhoneItems(data).slice(0, 20); // Get the top 10 fashion items
+const PhoneCards = ({ data }) => {
+  const getSafeData = (array) => (Array.isArray(array) ? array : []);
+  const topDropSolder = getSafeData(data?.["Phone"]).slice(0, 10);
 
   return (
     <div>
       <section className="bg-black text-white py-6">
         <h2 className="text-2xl text-center font-bold my-4">Top Phone Items</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-          {topFashionItems.map((item) => (
+          {topDropSolder.map((item) => (
             <div
               key={item.id}
               className="flex flex-col bg-white p-4 rounded-lg shadow-lg"
@@ -30,8 +25,7 @@ const PhoneCards = ({ data }) => {
                 {item.name || "Unnamed Product"}
               </h3>
               <p className="text-gray-700 mb-1">
-                {item.title || "Unknown Brand"}{" "}
-                {/* 'title' could be used for brand or category */}
+                {item.brand || "Unknown Brand"}
               </p>
               <p className="text-gray-700 mb-2">
                 {item.details || "No details available"}
@@ -52,6 +46,7 @@ const PhoneCards = ({ data }) => {
             </div>
           ))}
         </div>
+        <div className="py-2 text-center"></div>
       </section>
     </div>
   );
