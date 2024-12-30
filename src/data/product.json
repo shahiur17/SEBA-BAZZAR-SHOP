@@ -166,81 +166,81 @@
   "Pharmacy": [
     {
       "id": 21,
-      "name": "Pharmacy Item 1",
-      "title": "Painkiller",
-      "image": "https://via.placeholder.com/150",
+      "name": "Teravir 300mg",
+      "title": "tenofovir disoproxit",
+      "image": "https://i.ibb.co.com/xjWZg5y/16d502e6-fadd-40e2-9592-b5d2054fbcce.jpg",
       "price": 9.99,
       "rating": 4.8
     },
     {
       "id": 22,
-      "name": "Pharmacy Item 2",
+      "name": "Plaquionl 400mg",
       "title": "Cough Syrup",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/cDS5bW2/460541a8-fba9-494b-aa6b-3ed6d51da817.jpg",
       "price": 7.99,
       "rating": 4.6
     },
     {
       "id": 23,
-      "name": "Pharmacy Item 3",
+      "name": "Ciprofloxacin 500mg",
       "title": "Antibiotics",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/LY06Jcx/e1342701-1dc3-4cfd-9f65-cd5eaa0b4d6e.jpg",
       "price": 12.99,
       "rating": 4.7
     },
     {
       "id": 24,
-      "name": "Pharmacy Item 4",
+      "name": "Rifampicin Capsule",
       "title": "Vitamin C",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/CwBCNCw/79da4a8f-348a-490d-bffd-bccd7fd6253c.jpg",
       "price": 5.99,
       "rating": 4.5
     },
     {
       "id": 25,
-      "name": "Pharmacy Item 5",
+      "name": "Oswltamivir Cp 75mg",
       "title": "Band-Aids",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/HFRhz0G/af58e9ee-b506-44b1-9723-651306d0d77d.jpg",
       "price": 2.99,
       "rating": 4.2
     },
     {
       "id": 26,
-      "name": "Pharmacy Item 6",
+      "name": "Loratin Fast",
       "title": "Hand Sanitizer",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/b1G9wf8/9c546de4-499d-4db9-a05c-b15ae36f4cdb.jpg",
       "price": 3.99,
       "rating": 4.6
     },
     {
       "id": 27,
-      "name": "Pharmacy Item 7",
+      "name": "Clopidogrel 75mg",
       "title": "Cold Relief",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/kcPBPw1/f37f11ca-8df9-45aa-9d79-4ba6232b67ff.jpg",
       "price": 8.99,
       "rating": 4.4
     },
     {
       "id": 28,
-      "name": "Pharmacy Item 8",
+      "name": "Saitide",
       "title": "Face Mask",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/87DZK4X/271be5bf-a583-4451-ae41-313be972ba4e.jpg",
       "price": 1.99,
       "rating": 4.5
     },
     {
       "id": 29,
-      "name": "Pharmacy Item 9",
+      "name": "Amlodipine-5",
       "title": "Pain Reliever",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/LN1gP72/b7fa9fdc-23e8-43c4-b6d0-e803b15a7761.jpg",
       "price": 4.99,
       "rating": 4.7
     },
     {
       "id": 30,
-      "name": "Pharmacy Item 10",
+      "name": "Doxorubicin",
       "title": "Cold Medicine",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/92TThPw/0271d469-3dd1-4718-aba5-4b33a6619c2c.jpg",
       "price": 6.99,
       "rating": 4.6
     }

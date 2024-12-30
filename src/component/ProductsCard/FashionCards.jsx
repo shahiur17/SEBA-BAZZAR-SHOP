@@ -27,10 +27,10 @@ const FashionCards = ({ data }) => {
                 {item.name || "Unnamed Product"}
               </h3>
               <p className="text-gray-700 mb-1">
-                {item.brand || "Unknown Brand"}
+                {item.name || "Unknown Brand"}
               </p>
               <p className="text-gray-700 mb-2">
-                {item.details || "No details available"}
+                {item.title || "No details available"}
               </p>
               <div className="flex items-center mb-2">
                 <p className="text-lg font-bold text-black">
