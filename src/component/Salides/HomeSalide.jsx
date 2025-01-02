@@ -10,6 +10,7 @@ const HomeSalide = () => {
     "https://i.ibb.co.com/YpdGMdP/Black-Modern-Food-Menu-Presentation.jpg",
     "https://i.ibb.co.com/qNJZ742/Blue-Yellow-10-Awesome-Books-That-Changed-My-Mindset-Youtube-Thumbnail.jpg",
     "https://i.ibb.co.com/brvy6Xw/Beige-Jewelry-Collage-Instagram-Post.jpg",
+    "https://i.ibb.co.com/nzVHS5y/Untitled-design.jpg",
   ];
 
   useEffect(() => {
