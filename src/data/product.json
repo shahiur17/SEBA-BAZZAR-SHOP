@@ -2,81 +2,81 @@
   "Fashion": [
     {
       "id": 1,
-      "name": "Fashion Item 1",
-      "title": "Trendy Shirt",
-      "image": "https://via.placeholder.com/150",
+      "name": "Modern Designer Lehengas for Women ",
+      "title": " Lehengas for Women ",
+      "image": "https://i.ibb.co.com/DkJM4YK/images.jpg",
       "price": 29.99,
       "rating": 4.5
     },
     {
       "id": 2,
-      "name": "Fashion Item 2",
-      "title": "Stylish Jeans",
-      "image": "https://via.placeholder.com/150",
+      "name": "Sharee Archives ",
+      "title": "Women",
+      "image": "https://i.ibb.co.com/LSdLJQk/images.jpg",
       "price": 39.99,
       "rating": 4.7
     },
     {
       "id": 3,
-      "name": "Fashion Item 3",
-      "title": "Elegant Dress",
-      "image": "https://via.placeholder.com/150",
+      "name": "Men's Regular Fit Panja",
+      "title": "Men",
+      "image": "https://i.ibb.co.com/FgNvMkb/download.jpg",
       "price": 49.99,
       "rating": 4.3
     },
     {
       "id": 4,
-      "name": "Fashion Item 4",
-      "title": "Cool Jacket",
-      "image": "https://via.placeholder.com/150",
+      "name": "Bangladesh Flag with",
+      "title": "Men",
+      "image": "https://i.ibb.co.com/xGYSkCW/download.jpg",
       "price": 59.99,
       "rating": 4.6
     },
     {
       "id": 5,
-      "name": "Fashion Item 5",
-      "title": "Casual Shoes",
-      "image": "https://via.placeholder.com/150",
+      "name": "Rayon kurti 3pic set at",
+      "title": "Women",
+      "image": "https://i.ibb.co.com/gZzsssY/download.jpg",
       "price": 35.99,
       "rating": 4.4
     },
     {
       "id": 6,
-      "name": "Fashion Item 6",
+      "name": "Z Black 3pic Coat pan",
       "title": "Sportswear Set",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/r4Pc6ts/z-Black-3pic-Coat-pant.jpg",
       "price": 29.99,
       "rating": 4.8
     },
     {
       "id": 7,
-      "name": "Fashion Item 7",
-      "title": "Formal Shirt",
-      "image": "https://via.placeholder.com/150",
+      "name": "Exclusive stylish Baby Gi",
+      "title": "Baby shop",
+      "image": "https://i.ibb.co.com/F5dxgKk/download.jpg",
       "price": 39.99,
       "rating": 4.5
     },
     {
       "id": 8,
-      "name": "Fashion Item 8",
+      "name": "baby boy dress",
       "title": "Sneakers",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/vJ73Dnc/images.jpg",
       "price": 45.99,
       "rating": 4.6
     },
     {
       "id": 9,
-      "name": "Fashion Item 9",
-      "title": "T-Shirt",
-      "image": "https://via.placeholder.com/150",
+      "name": "Premium Quality ",
+      "title": "Shirt",
+      "image": "https://i.ibb.co.com/PtjdC8p/download.jpg",
       "price": 19.99,
       "rating": 4.7
     },
     {
       "id": 10,
-      "name": "Fashion Item 10",
-      "title": "Denim Shorts",
-      "image": "https://via.placeholder.com/150",
+      "name": "8 Round jama ideas |",
+      "title": "Girl",
+      "image": "https://i.ibb.co.com/QCS6srD/images.jpg",
       "price": 29.99,
       "rating": 4.2
     }
@@ -84,81 +84,81 @@
   "Phone": [
     {
       "id": 11,
-      "name": "Phone Item 1",
+      "name": "iPhone 16 Pro Max",
       "title": "Smartphone A1",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/j8YbKhH/download.jpg",
       "price": 399.99,
       "rating": 4.8
     },
     {
       "id": 12,
-      "name": "Phone Item 2",
+      "name": "Samsung S24 ultra",
       "title": "Smartphone B2",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/jTZ3VLv/download.jpg",
       "price": 499.99,
       "rating": 4.5
     },
     {
       "id": 13,
-      "name": "Phone Item 3",
+      "name": "Nokia 105 ",
       "title": "Smartphone C3",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/mvG4qXj/download.jpg",
       "price": 599.99,
       "rating": 4.7
     },
     {
       "id": 14,
-      "name": "Phone Item 4",
+      "name": "VIVO Y19s Price in Bangladesh",
       "title": "Smartphone D4",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/8PBKrgB/download.jpg",
       "price": 699.99,
       "rating": 4.9
     },
     {
       "id": 15,
-      "name": "Phone Item 5",
+      "name": "OPPO Smartphon",
       "title": "Smartphone E5",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/jr205HD/download.jpg",
       "price": 799.99,
       "rating": 4.4
     },
     {
       "id": 16,
-      "name": "Phone Item 6",
+      "name": "Oppo A3",
       "title": "Smartphone F6",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/qNSn3BF/download.jpg",
       "price": 899.99,
       "rating": 4.6
     },
     {
       "id": 17,
-      "name": "Phone Item 7",
+      "name": "Realme C33",
       "title": "Smartphone G7",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/fNnbFqn/download.jpg",
       "price": 999.99,
       "rating": 4.7
     },
     {
       "id": 18,
-      "name": "Phone Item 8",
+      "name": "Xiaomi",
       "title": "Smartphone H8",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/2FYt0zJ/download.jpg",
       "price": 799.99,
       "rating": 4.3
     },
     {
       "id": 19,
-      "name": "Phone Item 9",
+      "name": "Walton",
       "title": "Smartphone I9",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/gvc8763/download.jpg",
       "price": 699.99,
       "rating": 4.5
     },
     {
       "id": 20,
-      "name": "Phone Item 10",
+      "name": "OnePlus 11 ",
       "title": "Smartphone J10",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/3CzvjXH/download.jpg",
       "price": 599.99,
       "rating": 4.6
     }
@@ -248,81 +248,81 @@
   "Book": [
     {
       "id": 31,
-      "name": "Books Item 1",
+      "name": " Nobi Rasul",
       "title": "Fiction Novel",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/Vqwc5BV/download.jpg",
       "price": 15.99,
       "rating": 4.8
     },
     {
       "id": 32,
-      "name": "Books Item 2",
+      "name": "Book Thief by Mar",
       "title": "Science Fiction",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/7rTLMvj/download.jpg",
       "price": 18.99,
       "rating": 4.7
     },
     {
       "id": 33,
-      "name": "Books Item 3",
+      "name": "প্রিয় প্রেয়সী নারী",
       "title": "Mystery Novel",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/JR8Tkmc/download.jpg",
       "price": 12.99,
       "rating": 4.5
     },
     {
       "id": 34,
-      "name": "Books Item 4",
+      "name": "মৃত্যুক্ষুধা: কাজী নজরুল ",
       "title": "Self-Help Book",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/LpSYr2K/download.jpg",
       "price": 9.99,
       "rating": 4.6
     },
     {
       "id": 35,
-      "name": "Books Item 5",
+      "name": "জাতীয় কবি কাজী নজ",
       "title": "Historical Fiction",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/510TKBh/download.jpg",
       "price": 14.99,
       "rating": 4.4
     },
     {
       "id": 36,
-      "name": "Books Item 6",
+      "name": "Golper Jadukar by Ah",
       "title": "Biographies",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/1bVvFNp/download.jpg",
       "price": 17.99,
       "rating": 4.3
     },
     {
       "id": 37,
-      "name": "Books Item 7",
+      "name": "Golper Ramdhanu:",
       "title": "Poetry Collection",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/6wZxnxx/download.jpg",
       "price": 8.99,
       "rating": 4.8
     },
     {
       "id": 38,
-      "name": "Books Item 8",
+      "name": "Gini",
       "title": "Cookbook",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/SdTpjFL/images.jpg",
       "price": 11.99,
       "rating": 4.5
     },
     {
       "id": 39,
-      "name": "Books Item 9",
+      "name": "Fables Tagore Kids",
       "title": "Children's Book",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/Lh6zDv4/download.jpg",
       "price": 6.99,
       "rating": 4.6
     },
     {
       "id": 40,
-      "name": "Books Item 10",
+      "name": "বিচিত্রা শিশুদের গল্প",
       "title": "Fantasy Novel",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/RTgc73t/download.jpg",
       "price": 13.99,
       "rating": 4.4
     }
@@ -332,7 +332,7 @@
       "id": 41,
       "name": "Jewellery Item 1",
       "title": "Gold Necklace",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/x7ZgLD8/download.jpg",
       "price": 199.99,
       "rating": 4.8
     },
@@ -340,7 +340,7 @@
       "id": 42,
       "name": "Jewellery Item 2",
       "title": "Silver Ring",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/Yph4FCN/download.jpg",
       "price": 99.99,
       "rating": 4.5
     },
@@ -348,7 +348,7 @@
       "id": 43,
       "name": "Jewellery Item 3",
       "title": "Diamond Earrings",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/LrjNnQ0/download.jpg",
       "price": 299.99,
       "rating": 4.7
     },
@@ -356,7 +356,7 @@
       "id": 44,
       "name": "Jewellery Item 4",
       "title": "Gold Bracelet",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/6Xcnpcq/download.jpg",
       "price": 149.99,
       "rating": 4.6
     },
@@ -364,7 +364,7 @@
       "id": 45,
       "name": "Jewellery Item 5",
       "title": "Silver Watch",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/vBSk2cv/images.jpg",
       "price": 249.99,
       "rating": 4.4
     },
@@ -372,7 +372,7 @@
       "id": 46,
       "name": "Jewellery Item 6",
       "title": "Gold Earrings",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/L5tVFyk/images.jpg",
       "price": 179.99,
       "rating": 4.7
     },
@@ -380,7 +380,7 @@
       "id": 47,
       "name": "Jewellery Item 7",
       "title": "Diamond Necklace",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/0YNNFS6/images.jpg",
       "price": 399.99,
       "rating": 4.8
     },
@@ -388,7 +388,7 @@
       "id": 48,
       "name": "Jewellery Item 8",
       "title": "Platinum Ring",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/VWCQ2X1/images.jpg",
       "price": 499.99,
       "rating": 4.5
     },
@@ -396,7 +396,7 @@
       "id": 49,
       "name": "Jewellery Item 9",
       "title": "Gold Pendant",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/LYSrbQY/images.jpg",
       "price": 129.99,
       "rating": 4.6
     },
@@ -404,7 +404,7 @@
       "id": 50,
       "name": "Jewellery Item 10",
       "title": "Silver Anklet",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/TbVcSfJ/images.jpg",
       "price": 59.99,
       "rating": 4.4
     }
@@ -412,81 +412,81 @@
   "Food": [
     {
       "id": 51,
-      "name": "Food Item 1",
-      "title": "Organic Apple",
-      "image": "https://via.placeholder.com/150",
+      "name": "Egg",
+      "title": "Organic Product",
+      "image": "https://i.ibb.co.com/PgyqVLz/57583154-3a45-4acc-8db1-2cc3f2e00ee5.jpg",
       "price": 1.99,
       "rating": 4.8
     },
     {
       "id": 52,
-      "name": "Food Item 2",
-      "title": "Whole Wheat Bread",
-      "image": "https://via.placeholder.com/150",
+      "name": "MR Noodles",
+      "title": "Fresh company",
+      "image": "https://i.ibb.co.com/3cBG39V/7f5037fb-9168-4bc4-a998-539b86aa4297.jpg",
       "price": 2.49,
       "rating": 4.7
     },
     {
       "id": 53,
-      "name": "Food Item 3",
+      "name": "কুলসন কক ভার্মিসিলি সেমাই ২০",
       "title": "Almonds",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://i.ibb.co.com/NmL1L8C/82be8e45-0fcd-44c4-be1a-f176f1e8864d.jpg",
       "price": 5.99,
       "rating": 4.6
     },
     {
       "id": 54,
-      "name": "Food Item 4",
-      "title": "Rice Pack",
-      "image": "https://via.placeholder.com/150",
+      "name": "Sald",
+      "title": "ACI Pure",
+      "image": "https://i.ibb.co.com/kySHc3K/f5a9d056-db0a-4b97-ba60-3880df6f08e8.jpg",
       "price": 3.99,
       "rating": 4.5
     },
     {
       "id": 55,
-      "name": "Food Item 5",
-      "title": "Eggs",
-      "image": "https://via.placeholder.com/150",
+      "name": "Sugar",
+      "title": "Fresh",
+      "image": "https://i.ibb.co.com/nq2YfW1/94f4f1d6-3f3d-43da-b1ad-22cc125adb0b.jpg",
       "price": 2.99,
       "rating": 4.4
     },
     {
       "id": 56,
-      "name": "Food Item 6",
-      "title": "Olive Oil",
-      "image": "https://via.placeholder.com/150",
+      "name": "Mosur Dal -",
+      "title": "Dal",
+      "image": "https://i.ibb.co.com/Z68F0bP/f8635e0d-3e42-47a1-98cb-07ad5fbb3f3b.jpg",
       "price": 6.99,
       "rating": 4.7
     },
     {
       "id": 57,
-      "name": "Food Item 7",
-      "title": "Peanut Butter",
-      "image": "https://via.placeholder.com/150",
+      "name": "Soybean oil ",
+      "title": "oil",
+      "image": "https://i.ibb.co.com/0YFTKX2/e69db1d9-4c84-47e8-b661-91504c25ff5d.jpg",
       "price": 4.99,
       "rating": 4.6
     },
     {
       "id": 58,
-      "name": "Food Item 8",
-      "title": "Tomato Sauce",
-      "image": "https://via.placeholder.com/150",
+      "name": "রাঁধুনী রেডিমিক্স মুরগির মাংসের মশলা",
+      "title": "Fresh",
+      "image": "https://i.ibb.co.com/xjbhrNT/80d110e3-1d31-4a62-b135-cf0fcf0a63c2.jpg",
       "price": 2.49,
       "rating": 4.5
     },
     {
       "id": 59,
-      "name": "Food Item 9",
-      "title": "Green Tea",
-      "image": "https://via.placeholder.com/150",
+      "name": "Rice",
+      "title": "Fresh",
+      "image": "https://i.ibb.co.com/ZGBPkp3/70a42c0e-7648-4f37-a265-f92e5d58ef4a.jpg",
       "price": 3.99,
       "rating": 4.4
     },
     {
       "id": 60,
-      "name": "Food Item 10",
-      "title": "Chocolates",
-      "image": "https://via.placeholder.com/150",
+      "name": "Pure Mustard Oil",
+      "title": "fresh",
+      "image": "https://i.ibb.co.com/5cH9jQJ/e9f23b05-deac-4a20-a233-5b9979c9eea8.jpg",
       "price": 4.49,
       "rating": 4.7
     }
@@ -494,81 +494,81 @@
   "Electronic": [
     {
       "id": 61,
-      "name": "Electronic Item 1",
-      "title": "Laptop",
-      "image": "https://via.placeholder.com/150",
+      "name": "samsung 64inc TV",
+      "title": "Samsung",
+      "image": "https://i.ibb.co.com/S36GBg3/42ced0bc-512d-4a5a-8cfb-c2f068208cec.jpg",
       "price": 899.99,
       "rating": 4.8
     },
     {
       "id": 62,
-      "name": "Electronic Item 2",
-      "title": "Smartwatch",
-      "image": "https://via.placeholder.com/150",
+      "name": "Sony audio Device",
+      "title": "box",
+      "image": "https://i.ibb.co.com/cvrnp5t/44a24a13-1729-462d-b21d-d163d36f8b0d.jpg",
       "price": 199.99,
       "rating": 4.6
     },
     {
       "id": 63,
-      "name": "Electronic Item 3",
-      "title": "Wireless Earbuds",
-      "image": "https://via.placeholder.com/150",
+      "name": "Vison",
+      "title": "Electronic",
+      "image": "https://i.ibb.co.com/4Zr0LjH/06a4466d-7720-4694-9725-3f0a716ac643.jpg",
       "price": 59.99,
       "rating": 4.7
     },
     {
       "id": 64,
-      "name": "Electronic Item 4",
-      "title": "Bluetooth Speaker",
-      "image": "https://via.placeholder.com/150",
+      "name": "Vison",
+      "title": "vison",
+      "image": "https://i.ibb.co.com/QrKz1TF/1c7e949b-edd5-4549-9687-2c770b240755.jpg",
       "price": 49.99,
       "rating": 4.5
     },
     {
       "id": 65,
-      "name": "Electronic Item 5",
-      "title": "Tablet",
-      "image": "https://via.placeholder.com/150",
+      "name": "Electronic",
+      "title": "Brand",
+      "image": "https://i.ibb.co.com/S6vhfqR/37557084-8d4b-4222-a55a-08dbf83f981a.jpg",
       "price": 349.99,
       "rating": 4.7
     },
     {
       "id": 66,
-      "name": "Electronic Item 6",
-      "title": "Portable Charger",
-      "image": "https://via.placeholder.com/150",
+      "name": "Electronic Fan",
+      "title": "Vison",
+      "image": "https://i.ibb.co.com/WBqdNsT/f661dd0b-85dd-4220-8cfe-b5f37f5efa06.jpg",
       "price": 19.99,
       "rating": 4.6
     },
     {
       "id": 67,
-      "name": "Electronic Item 7",
-      "title": "Phone Case",
-      "image": "https://via.placeholder.com/150",
+      "name": "Eআয়রণ মেশিন",
+      "title": "Vison",
+      "image": "https://i.ibb.co.com/M2MsFBq/99940869-a60e-41f0-9e7d-d2490ab7873f.jpg",
       "price": 14.99,
       "rating": 4.8
     },
     {
       "id": 68,
-      "name": "Electronic Item 8",
-      "title": "Camera",
-      "image": "https://via.placeholder.com/150",
+      "name": "Blender ",
+      "title": "Vison",
+      "image": "https://i.ibb.co.com/dWRSV26/6d94e71c-f7e8-4a65-9819-4bd0a839e579.jpg",
       "price": 499.99,
       "rating": 4.6
     },
     {
       "id": 69,
-      "name": "Electronic Item 9",
-      "title": "Gaming Console",
-      "image": "https://via.placeholder.com/150",
+      "name": "rice cooker",
+      "title": "Vison",
+      "image": "https://i.ibb.co.com/ncsPCCg/57e4aeb6-e99b-4ee5-8631-75e54681b836.jpg",
       "price": 399.99,
       "rating": 4.7
     },
     {
       "id": 70,
-      "name": "Electronic Item 10",
-      "title": "Smart TV",
-      "image": "https://via.placeholder.com/150",
+      "name": "Refrigerator",
+      "title": "Walton",
+      "image": "https://i.ibb.co.com/1q1S4Ly/c1d09831-6285-4312-b21d-e4bf9bfa69ea.jpg",
       "price": 799.99,
       "rating": 4.8
     }
