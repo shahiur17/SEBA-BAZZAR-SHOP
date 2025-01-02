@@ -11,7 +11,7 @@ const Navbar = () => {
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost lg:hidden text-white font-bold"
+              className="btn btn-ghost lg:hidden text-black"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,58 +34,37 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-44 p-2 shadow"
             >
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/food"
-                >
+                <Link className="font-medium text-black" to="/food">
                   Food & Grocery
                 </Link>
               </li>
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/pharmacy"
-                >
+                <Link className="font-medium text-black" to="/pharmacy">
                   Pharmacy
                 </Link>
               </li>
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/fashion"
-                >
+                <Link className="font-medium text-black" to="/fashion">
                   Fashion
                 </Link>
               </li>
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/electronic"
-                >
+                <Link className="font-medium text-black" to="/electronic">
                   Electronic
                 </Link>
               </li>
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/jewellery"
-                >
+                <Link className="font-medium text-black" to="/jewellery">
                   Jewellery
                 </Link>
               </li>
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/book"
-                >
+                <Link className="font-medium text-black" to="/book">
                   Books
                 </Link>
               </li>
               <li>
-                <Link
-                  className="font-bold text-white hover:text-blue-200"
-                  to="/phone"
-                >
+                <Link className="font-medium text-black" to="/phone">
                   Phone
                 </Link>
               </li>
@@ -93,70 +72,70 @@ const Navbar = () => {
           </div>
           {/* Logo */}
           <Link
-            className="btn btn-ghost text-lg font-bold text-white hover:text-blue-200"
+            className="btn btn-ghost text-lg font-bold text-white hover:text-gray-200"
             to="/home"
           >
             daisyUI
           </Link>
         </div>
 
-        {/* Center Menu */}
+        {/* Navbar Center */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/fashion"
               >
-                FASHION
+                Fashion
               </Link>
             </li>
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/phone"
               >
-                PHONE
+                Phone
               </Link>
             </li>
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/pharmacy"
               >
-                PHARMACY
+                Pharmacy
               </Link>
             </li>
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/book"
               >
-                BOOKs
+                Books
               </Link>
             </li>
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/jewellery"
               >
-                JEWELLERY
+                Jewellery
               </Link>
             </li>
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/food"
               >
-                FOODd & GROCERY
+                Food & Grocery
               </Link>
             </li>
             <li>
               <Link
-                className="font-bold text-white hover:text-blue-200"
+                className="font-medium text-white hover:text-gray-200"
                 to="/electronic"
               >
-                ELECTRONIC
+                Electronic
               </Link>
             </li>
           </ul>
@@ -164,28 +143,23 @@ const Navbar = () => {
 
         {/* Navbar End */}
         <div className="navbar-end flex items-center space-x-2">
-          {/* Search Box with Button Inside for Larger Devices */}
+          {/* Search Box */}
           <div className="hidden md:flex input-group">
             <input
               type="text"
               placeholder="Search..."
               className="input input-bordered w-36 md:w-48 lg:w-64 text-sm"
             />
-            <button className="btn btn-primary text-sm font-bold text-white ml-2">
-              Search
-            </button>
+            <button className="btn btn-primary text-sm ml-2">Search</button>
           </div>
 
           {/* Cart Section */}
           <div className="dropdown dropdown-end">
-            <label
-              tabIndex={0}
-              className="btn btn-ghost btn-circle font-bold text-white"
-            >
+            <label tabIndex={0} className="btn btn-ghost btn-circle">
               <div className="indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="h-5 w-5 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -214,14 +188,13 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-44 p-2 shadow"
             >
               <li>
-                <a className="font-bold text-white hover:text-blue-200">
-                  Profile
-                </a>
+                <a className="font-medium text-black">Profile</a>
               </li>
               <li>
-                <a className="font-bold text-white hover:text-blue-200">
-                  Logout
-                </a>
+                <a className="font-medium text-black">Settings</a>
+              </li>
+              <li>
+                <a className="font-medium text-black">Logout</a>
               </li>
             </ul>
           </div>
