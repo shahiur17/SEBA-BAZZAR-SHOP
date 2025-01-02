@@ -16,8 +16,8 @@ const BookCards = ({ data }) => {
             >
               <div className="overflow-hidden">
                 <img
-                  src={item.image || "fallback-image-url"} // Fallback image if none provided
-                  alt={item.name || "Product Image"} // Fallback alt text
+                  src={item.image || "fallback-image-url"}
+                  alt={item.name || "Product Image"}
                   className="object-cover h-48 w-full mb-4 transform transition duration-300 ease-in-out hover:scale-125"
                 />
               </div>

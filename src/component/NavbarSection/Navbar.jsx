@@ -3,12 +3,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-sky-600">
         {/* Navbar Start */}
         <div className="navbar-start">
           <div className="dropdown">
             {/* Mobile Menu Button */}
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden text-white font-bold"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -31,7 +35,7 @@ const Navbar = () => {
             >
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/food"
                 >
                   Food & Grocery
@@ -39,7 +43,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/pharmacy"
                 >
                   Pharmacy
@@ -47,7 +51,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/fashion"
                 >
                   Fashion
@@ -55,7 +59,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/electronic"
                 >
                   Electronic
@@ -63,7 +67,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/jewellery"
                 >
                   Jewellery
@@ -71,7 +75,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/book"
                 >
                   Books
@@ -79,7 +83,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="font-medium text-sm hover:text-blue-500"
+                  className="font-bold text-white hover:text-blue-200"
                   to="/phone"
                 >
                   Phone
@@ -89,7 +93,7 @@ const Navbar = () => {
           </div>
           {/* Logo */}
           <Link
-            className="btn btn-ghost text-lg font-bold hover:text-blue-500"
+            className="btn btn-ghost text-lg font-bold text-white hover:text-blue-200"
             to="/home"
           >
             daisyUI
@@ -101,58 +105,58 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/fashion"
               >
-                Fashion
+                FASHION
               </Link>
             </li>
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/phone"
               >
-                Phone
+                PHONE
               </Link>
             </li>
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/pharmacy"
               >
-                Pharmacy
+                PHARMACY
               </Link>
             </li>
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/book"
               >
-                Books
+                BOOKs
               </Link>
             </li>
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/jewellery"
               >
-                Jewellery
+                JEWELLERY
               </Link>
             </li>
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/food"
               >
-                Food & Grocery
+                FOODd & GROCERY
               </Link>
             </li>
             <li>
               <Link
-                className="font-medium text-sm hover:text-blue-500"
+                className="font-bold text-white hover:text-blue-200"
                 to="/electronic"
               >
-                Electronic
+                ELECTRONIC
               </Link>
             </li>
           </ul>
@@ -167,12 +171,17 @@ const Navbar = () => {
               placeholder="Search..."
               className="input input-bordered w-36 md:w-48 lg:w-64 text-sm"
             />
-            <button className="btn btn-primary text-sm ml-2">Search</button>
+            <button className="btn btn-primary text-sm font-bold text-white ml-2">
+              Search
+            </button>
           </div>
 
           {/* Cart Section */}
           <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-ghost btn-circle">
+            <label
+              tabIndex={0}
+              className="btn btn-ghost btn-circle font-bold text-white"
+            >
               <div className="indicator">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -191,20 +200,6 @@ const Navbar = () => {
                 <span className="badge badge-sm indicator-item">3</span>
               </div>
             </label>
-            <div
-              tabIndex={0}
-              className="card card-compact dropdown-content w-52 bg-base-100 shadow"
-            >
-              <div className="card-body">
-                <span className="font-bold text-sm">3 Items</span>
-                <span className="text-info text-xs">Subtotal: $76</span>
-                <div className="card-actions">
-                  <button className="btn btn-primary btn-block btn-sm">
-                    View Cart
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Profile Section */}
@@ -219,17 +214,12 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-44 p-2 shadow"
             >
               <li>
-                <a className="font-medium text-sm hover:text-blue-500">
+                <a className="font-bold text-white hover:text-blue-200">
                   Profile
                 </a>
               </li>
               <li>
-                <a className="font-medium text-sm hover:text-blue-500">
-                  Settings
-                </a>
-              </li>
-              <li>
-                <a className="font-medium text-sm hover:text-blue-500">
+                <a className="font-bold text-white hover:text-blue-200">
                   Logout
                 </a>
               </li>
