@@ -1,13 +1,37 @@
-import { Link } from "react-router-dom";
+import { signOut } from "firebase/auth";
+import { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { auth } from "../../firebase.config"; // Adjust the path as needed
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const [user, setUser] = useState(null); // To store the user data
+
+  useEffect(() => {
+    // Check if a user is logged in when the component mounts
+    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+      setUser(currentUser); // Set user if logged in
+    });
+    return () => unsubscribe(); // Clean up subscription when the component unmounts
+  }, []);
+
+  const handleLogout = async () => {
+    try {
+      await signOut(auth);
+      alert("Logged out successfully!");
+      navigate("/login"); // Redirect to login after logout
+    } catch (error) {
+      console.error("Error during logout:", error);
+      alert("Logout failed!");
+    }
+  };
+
   return (
     <div>
       <div className="navbar bg-sky-600">
         {/* Navbar Start */}
         <div className="navbar-start">
           <div className="dropdown">
-            {/* Mobile Menu Button */}
             <div
               tabIndex={0}
               role="button"
@@ -28,7 +52,6 @@ const Navbar = () => {
                 />
               </svg>
             </div>
-            {/* Dropdown Menu for Mobile */}
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-44 p-2 shadow"
@@ -70,7 +93,6 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          {/* Logo */}
           <Link
             className="btn btn-ghost text-lg font-bold text-white hover:text-gray-200"
             to="/home"
@@ -143,7 +165,6 @@ const Navbar = () => {
 
         {/* Navbar End */}
         <div className="navbar-end flex items-center space-x-2">
-          {/* Search Box */}
           <div className="hidden md:flex input-group">
             <input
               type="text"
@@ -178,25 +199,40 @@ const Navbar = () => {
 
           {/* Profile Section */}
           <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-              <div className="w-8 md:w-10 rounded-full">
-                <img src="https://via.placeholder.com/150" alt="Profile" />
-              </div>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-44 p-2 shadow"
-            >
-              <li>
-                <a className="font-medium text-black">Profile</a>
-              </li>
-              <li>
-                <a className="font-medium text-black">Settings</a>
-              </li>
-              <li>
-                <a className="font-medium text-black">Logout</a>
-              </li>
-            </ul>
+            {user ? (
+              <>
+                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                  <div className="w-8 md:w-10 rounded-full">
+                    <img
+                      src={user.photoURL || "https://via.placeholder.com/150"}
+                      alt="Profile"
+                    />
+                  </div>
+                </label>
+                <ul
+                  tabIndex={0}
+                  className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-44 p-2 shadow"
+                >
+                  <li>
+                    <Link to="/profile" className="font-medium text-black">
+                      Profile
+                    </Link>
+                  </li>
+                  <li>
+                    <button
+                      onClick={handleLogout}
+                      className="font-medium text-black"
+                    >
+                      Logout
+                    </button>
+                  </li>
+                </ul>
+              </>
+            ) : (
+              <Link to="/login">
+                <button className="btn btn-ghost text-white">Login</button>
+              </Link>
+            )}
           </div>
         </div>
       </div>

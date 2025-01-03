@@ -6,8 +6,11 @@ import Fashion from "../Pages/Fashion";
 import Foods from "../Pages/Foods";
 import Home from "../Pages/HomePage/Home";
 import Jewellery from "../Pages/Jewellery";
+import Login from "../Pages/LoginPage/Login";
+import NothFounde from "../Pages/NothFounde";
 import Pharmacy from "../Pages/Pharmacy";
 import Phones from "../Pages/Phones";
+import Register from "../Pages/RegisterPagr/Register";
 
 const myCreateRouter = createBrowserRouter([
   {
@@ -45,6 +48,18 @@ const myCreateRouter = createBrowserRouter([
       {
         path: "/electronic",
         element: <Electronic></Electronic>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/singup",
+        element: <Register></Register>,
+      },
+      {
+        path: "*",
+        element: <NothFounde></NothFounde>,
       },
     ],
   },
