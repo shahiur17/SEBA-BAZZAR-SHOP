@@ -75,7 +75,7 @@ const Navbar = () => {
             className="btn btn-ghost text-lg font-bold text-white hover:text-gray-200"
             to="/home"
           >
-            daisyUI
+            SEBA
           </Link>
         </div>
 
