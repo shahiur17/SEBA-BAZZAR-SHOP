@@ -3,6 +3,7 @@ import React from "react";
 const BookCards = ({ data }) => {
   const getSafeData = (array) => (Array.isArray(array) ? array : []);
   const topDropSolder = getSafeData(data?.["Book"]).slice(0, 10);
+  console.log(data);
 
   return (
     <div>

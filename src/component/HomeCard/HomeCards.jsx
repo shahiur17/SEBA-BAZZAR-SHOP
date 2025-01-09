@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 
 const HomeCards = ({ data }) => {
   const getSafeData = (array) => (Array.isArray(array) ? array : []);
+  console.log(data);
 
   const categories = [
     {
       title: "Top Book Items",
-      data: getSafeData(data?.["Book"]),
+      data: getSafeData(data?.Book),
       link: "/book",
     },
     {
@@ -101,7 +102,7 @@ const HomeCards = ({ data }) => {
                   <div
                     key={item.id}
                     className={`flex-shrink-0 ${
-                      isMobile ? "w-1/2 sm:w-1/4" : "w-1/6"
+                      isMobile ? "w-1/2" : "w-1/6"
                     } p-2 bg-white text-black rounded-lg shadow-lg`}
                   >
                     <div className="overflow-hidden">

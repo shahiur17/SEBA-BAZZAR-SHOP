@@ -1,25 +1,24 @@
 import { signOut } from "firebase/auth";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { auth } from "../../firebase.config"; // Adjust the path as needed
+import { auth } from "../../firebase.config";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [user, setUser] = useState(null); // To store the user data
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
-    // Check if a user is logged in when the component mounts
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser); // Set user if logged in
+      setUser(currentUser);
     });
-    return () => unsubscribe(); // Clean up subscription when the component unmounts
+    return () => unsubscribe();
   }, []);
 
   const handleLogout = async () => {
     try {
       await signOut(auth);
       alert("Logged out successfully!");
-      navigate("/login"); // Redirect to login after logout
+      navigate("/login");
     } catch (error) {
       console.error("Error during logout:", error);
       alert("Logout failed!");
